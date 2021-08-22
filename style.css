@@ -27,6 +27,15 @@ th, td {
     margin: auto;
 }
 
+.footer {
+    padding: 2.5px;
+    text-align: center;
+    background-color: darkslategrey;
+    color:snow;
+    text-decoration: none;
+    margin: auto;
+}
+
 @media screen and (max-width:700px) {
     .row {
         flex-direction: column;
