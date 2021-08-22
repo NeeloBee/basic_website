@@ -11,3 +11,19 @@ th, td {
     text-align: left;
 }
 
+.navBar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.navBar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: snow;
+    background-color: darkslategrey;
+    margin: auto;
+}
+
