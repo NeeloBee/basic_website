@@ -36,6 +36,11 @@ th, td {
     margin: auto;
 }
 
+#profilepic.jpg {
+    position: absolute;
+    right: 0%;
+}
+
 @media screen and (max-width:700px) {
     .row {
         flex-direction: column;
