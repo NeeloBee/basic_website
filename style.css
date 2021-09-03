@@ -14,6 +14,8 @@ th, td {
 .navBar {
     /* //overflow: hidden; */
     background-color: darkslategrey;
+    z-index: 1;
+    position: relative;
 }
 
  .navBar a {
@@ -36,7 +38,7 @@ th, td {
     margin: auto;
 }
 
-.table mountain.jpg {
+.table mountain {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
