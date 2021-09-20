@@ -50,17 +50,23 @@ th, td {
     margin-left:auto;
     display:block;
 
-}
+}*/
 
-#profilepic.jpg {
+.profilePic {
+    z-index: -99;
     position: absolute;
-    right: 0%;
-} */
+} 
 
 @media screen and (max-width:700px) {
     .row {
         flex-direction: column;
     }
+
+    .profilePic {
+        z-index: -99;
+        position: absolute;
+    } 
+    
 }
 
 @media screen and (max-width:400px) {
@@ -68,6 +74,12 @@ th, td {
         float:none;
         width: 100%;
     }
+
+    .profilePic {
+        z-index: -99;
+        position: absolute;
+    } 
+    
 }
 
 
